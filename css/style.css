@@ -1,14 +1,36 @@
-/* #two {
-    color: blue;
-} */
-/* .myheader {
-    color: red;
-} */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    /* background-color: burlywood; */
 
-/* * {
-    color: yellow;
-} */
+}
 
-p, h3, h2 {
+a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.51);
+    
+}
+
+a:hover {
+    color:red;
+
+}
+a:active {
+    background-color: blue;
+    color: white;
+}
+
+a:focus {
+    background-color: yellow;
+}
+
+a:visited {
+    color: purple;
+}
+
+i.fa-10x {
     color: blue;
+}
+i.fa-5x {
+    color: violet;
 }
