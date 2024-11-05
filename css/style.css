@@ -1,46 +1,52 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'poppins', sans-serif;
+    font-family: 'Arial', sans-serif;
+
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    
-}
 
-.box {
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
-    margin: 15px;
-    
-    /* flex box */
+
+/* to make a container flex, use diplay: flex */
+
+.flex-container {
     display: flex;
+    background-color: aqua;
+    gap: 20px;
+    height: 90vh;
+
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: flex-start;
+    justify-content: flex-end;
     justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* flex-direction: column;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    align-items: flex-start;
+    align-items: flex-end;
     align-items: center;
-    border-radius: 10px;
-
-}
-
-.box-1 {
-    box-shadow: 10px 10px darkblue;
+    align-items: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
     
-}
-
-.box-2 {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-    border: none;
 
 }
 
-.box-3 {
-    border: 1px solid black;
-    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8);
-}
+.flex-item {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
 
+}
